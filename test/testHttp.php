@@ -1,6 +1,6 @@
 <?php
 
-require '../vendor/autoload.php';
+require dirname(__FILE__).'/../vendor/autoload.php';
 
 use GuzzleHttp\Client;
 
@@ -8,7 +8,7 @@ $client = new Client();
 
 
 // 示例 请求方法种类
-// $response = $client->get('http://httpbin.org/get');
+$response = $client->get('http://httpbin.org/get');
 // You can use the same methods you saw in the procedural API
 // $response = $client->delete('http://httpbin.org/delete');
 // $response = $client->head('http://httpbin.org/get');
@@ -16,10 +16,10 @@ $client = new Client();
 // $response = $client->patch('http://httpbin.org/patch');
 // $response = $client->post('http://httpbin.org/post');
 // $response = $client->put('http://httpbin.org/put');
-// $code = $response->getStatusCode();
-// var_dump($code);
-// $reason = $response->getReasonPhrase();
-// var_dump($reason);
+$code = $response->getStatusCode();
+var_dump($code);
+$reason = $response->getReasonPhrase();
+var_dump($reason);
 
 
 // 示例 请求状态
