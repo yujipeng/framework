@@ -9,3 +9,4 @@ use composer to create my framework
 * http相关 guzzlehttp/guzzle
   * github : https://github.com/guzzle/guzzle
   * composer require guzzlehttp/guzzle
+  * test : ./test/testHttp.php
