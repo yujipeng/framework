@@ -7,5 +7,6 @@ use composer to create my framework
 # 组件列表
 
 * http相关 guzzlehttp/guzzle
-** github : https://github.com/guzzle/guzzle
-** composer require guzzlehttp/guzzle
+  * github : https://github.com/guzzle/guzzle
+  * composer require guzzlehttp/guzzle
+  * test : ./test/testHttp.php
