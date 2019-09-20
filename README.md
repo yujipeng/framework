@@ -15,3 +15,12 @@ use composer to create my framework
     * github : https://github.com/danielstjules/stringy
     * composer require danielstjules/stringy
     * 测试文件 ：./test/testStringy.php
+
+
+
+
+
+* phpunit相关 composer require phpunit/phpunit
+    * http: https://phpunit.de/index.html
+    * composer require phpunit/phpunit 
+    * 执行命令 ./vendor/bin/phpunit --bootstrap vendor/autoload.php --testdox tests
