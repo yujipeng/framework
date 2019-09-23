@@ -1,4 +1,11 @@
-<phpunit bootstrap="../vendor/autoload.php">
+<phpunit 
+    bootstrap="../vendor/autoload.php" 
+    beStrictAboutTestsThatDoNotTestAnything="true"
+    beStrictAboutCoversAnnotation="true"
+    beStrictAboutOutputDuringTests="true"
+    beStrictAboutChangesToGlobalState="true"
+    beStrictAboutTestSize="true"
+    >
   <testsuites>
     <testsuite name="phpunit">
         <directory>tests/phpunit</directory>
